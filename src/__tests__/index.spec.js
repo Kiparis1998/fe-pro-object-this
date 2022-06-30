@@ -2,10 +2,10 @@ import { hotel } from '../index';
 
 describe('Hotel', () => {
   it('checks properties', () => {
-    expect(hotel.quantityOfPlaces).toStrictEqual(30);
-    expect(hotel.priceByPlace).toStrictEqual(20);
-    expect(hotel.bankAccount).toStrictEqual(0);
-    expect(hotel.guests).toStrictEqual({});
+       expect(hotel.quantityOfPlaces).toStrictEqual(30);
+       expect(hotel.priceByPlace).toStrictEqual(20);
+      expect(hotel.bankAccount).toStrictEqual(0);
+  expect(hotel.guests).toStrictEqual({});
   });
 
   describe('checks methods', () => {
